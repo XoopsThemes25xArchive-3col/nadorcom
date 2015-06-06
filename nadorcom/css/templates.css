@@ -1,0 +1,28 @@
+/* --------- System module -------- */
+/* --- system_redirect ---*/
+#xo-redirect {
+  margin : 10px 80px 10px 80px;
+  background-color : #fafafa;
+  padding : 8px;
+  line-height : 1.4em;
+  text-align : center;
+  border : 1px solid #ddd;
+}
+/* --- system_siteclosed --- */
+#xo-siteclosed {
+  margin : 10px 200px 10px 200px;
+  background-color : #fafafa;
+  padding : 8px;
+  line-height : 1.6em;
+  text-align: center;
+  border : 1px solid #ddd;
+}
+#xo-siteclosed strong {
+  display : block;
+  font-style : normal;
+}
+#xo-siteclosed label {
+  font-size : .9em;
+  font-weight : normal;
+}
+#xo-siteclosed input {margin : 2px;}

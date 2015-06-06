@@ -1,0 +1,103 @@
+/* --------- Left columns --------- */
+.coin-gauchesq {
+	background-image: url("../img/coin_gauche.gif");
+	width: 4px;
+	height: 21px;
+	float: left;
+}
+.coin-centersq {
+	background-image: url("../img/center.gif");
+	background-repeat: repeat-x;
+	height: 21px;
+	margin: 0px;
+	padding: 0px;
+}
+.picttre-espacesq {
+	margin-left: 10px;
+	margin-top: 3px;
+	margin-right: 6px;
+	display: inline;
+	float: left;
+}
+.txt-ttespacesq {
+    text-align: left;
+	font-family: arial;
+	font-size: 11px;
+	color: #243A87;
+	text-decoration: none;
+	font-weight: bold;
+	padding-top: 2px;
+	margin-top: 3px;
+	display: inline;
+    float: left;
+}
+.coin-droitesq {
+	width: 4px;
+	height: 21px;
+	float: right;
+	background-image: url("../img/coin_droite.gif");
+}
+.tacentersq {
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 1px;
+}
+.bgcenter-espaceasq {
+	color: #484848;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+}
+#bodyb {
+	background: #FFFFFF url("../img/bg-bc.gif") repeat-x scroll left top;
+	/*border-top: 1px solid #FFFFFF;*/
+	padding: 1em;
+}
+#xo-canvas-leftcolumn {
+	width : 170px;
+}
+/* --------- Right columns --------- */
+#xo-canvas-rightcolumn {
+  width : 170px;
+
+}
+.xo-block {
+padding-right: 5px;
+}
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {
+  margin : 0px;
+}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  margin : 5px 5px 0 5px;  
+  padding : 4px 0 0 6px;
+  color : #444;
+  font-size : 1.1em;
+  font-weight : bold;
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  padding : 5px 8px 8px 8px;
+  margin-bottom : 2px;
+  line-height : 1.4em;
+  text-align : justify;
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;}
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+  margin : 5px 5px 0 5px; 
+  padding : 4px 0 0 6px;
+  color : #444;
+  font-size : 1.1em;
+  font-weight : bold;
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  margin-bottom : 2px;
+  padding : 5px 8px 8px 8px;
+  line-height : 1.4em;
+  text-align : justify;  
+}

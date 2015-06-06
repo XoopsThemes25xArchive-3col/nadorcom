@@ -1,0 +1,26 @@
+<div id="xo-header" class="<{$xoops_dirname}>">
+	<!-- Logo -->
+	<div class="logo">
+		<a href="<{xoAppUrl }>">
+			<img src="<{xoImgUrl img/logo.gif}>" alt="<{$xoops_pagetitle}>" title="<{$xoops_pagetitle}>" />
+		</a> 
+		<!-- Date & Time -->
+		<div class="date">
+		<script language="JavaScript">initheure();</script>
+		<br />
+		<{php}>setlocale(LC_TIME, 'fr', 'fr_FR', 'fr_FR.ISO8859-1');<{/php}>
+		<{$smarty.now|date_format:"%A %d %B %Y"}>
+		</div>
+	</div>
+	<!-- Banner -->
+    <div class="banner"><{$xoops_banner}></div>
+	<ul class="topmenu">
+      <li><a href="<{xoAppUrl modules/contact/}>">Contact</a></li>
+      <li><a href="<{xoAppUrl modules/sitemap/}>">Sitemap</a></li>
+    </ul>
+	<div class="login">
+      <!-- Star Breadcrumbs -->
+      <{includeq file="$theme_name/xouserbar.html"}>
+      <!-- End Breadcrumbs -->
+	</div>
+</div>

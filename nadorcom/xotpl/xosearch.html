@@ -1,0 +1,19 @@
+<div class="search_container">
+	<div class="search_zone">
+		<form action="<{$xoops_url}>/search.php" method="get">
+			<input type="text" id="nkw" name="query" size="14" maxlength="64" class="search_input" />
+			<input type="hidden" name="action" value="results" />
+			<input name="submit" type="submit" value="Ok" class="search_submit" />
+		</form>
+    </div>
+		<div class="favoris_contact_zone">
+			<a title="Contacter nous" href="<{xoAppUrl modules/contact/}>">
+				<img alt="" src="<{xoImgUrl img/contact.gif}>"/>
+			</a>
+		</div>
+		<div class="favoris_contact_zone">
+			<a title="Ajouter aux favoris" href="javascript:void(favoris('Nomad - Accueil','<{xoAppUrl }>'));">
+				<img alt="" src="<{xoImgUrl img/favoris.gif}>"/>
+			</a>
+		</div>  
+</div>
